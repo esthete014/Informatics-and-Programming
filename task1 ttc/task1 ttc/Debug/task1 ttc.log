@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\c++\task1 ttc\task1 ttc\Source.cpp(22,50): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task1 ttc.vcxproj -> D:\c++\task1 ttc\Debug\task1 ttc.exe

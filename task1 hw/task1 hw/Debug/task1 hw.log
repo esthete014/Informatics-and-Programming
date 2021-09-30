@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\c++\task1 hw\task1 hw\Source.cpp(20,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\c++\task1 hw\task1 hw\Source.cpp(22,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\c++\task1 hw\task1 hw\Source.cpp(23,35): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\c++\task1 hw\task1 hw\Source.cpp(24,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\c++\task1 hw\task1 hw\Source.cpp(26,16): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\c++\task1 hw\task1 hw\Source.cpp(27,28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task1 hw.vcxproj -> D:\c++\task1 hw\Debug\task1 hw.exe

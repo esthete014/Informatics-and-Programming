@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\c++\Informatics-and-Programming\work in class 1.10.21\work in class 1.10.21\Source.cpp(53,25): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\c++\Informatics-and-Programming\work in class 1.10.21\work in class 1.10.21\Source.cpp(57,26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\c++\Informatics-and-Programming\work in class 1.10.21\work in class 1.10.21\Source.cpp(60,27): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\c++\Informatics-and-Programming\work in class 1.10.21\work in class 1.10.21\Source.cpp(65,12): warning C4477: "scanf_s": в строке форматирования "%f" требуется аргумент типа "float *", но вариативный аргумент "1" имеет тип "int *"
+D:\c++\Informatics-and-Programming\work in class 1.10.21\work in class 1.10.21\Source.cpp(33,6): warning C4101: error: неиспользованная локальная переменная
+  work in class 1.10.21.vcxproj -> D:\c++\Informatics-and-Programming\work in class 1.10.21\Debug\work in class 1.10.21.exe

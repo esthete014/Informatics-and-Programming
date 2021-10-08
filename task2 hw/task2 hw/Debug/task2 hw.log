@@ -1,0 +1,10 @@
+﻿  Source.cpp
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(20,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(53,19): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(55,13): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(55,13): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(55,13): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(55,13): message : этот аргумент используется в качестве размера буфера
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(58,12): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\c++\Informatics-and-Programming\task2 hw\task2 hw\Source.cpp(62,12): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  task2 hw.vcxproj -> D:\c++\Informatics-and-Programming\task2 hw\Debug\task2 hw.exe

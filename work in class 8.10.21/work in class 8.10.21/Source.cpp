@@ -19,7 +19,7 @@
 #include <malloc.h>
 #include <stdlib.h>
 #include <time.h>
-
+/*
 int main() {
 	//statichnie massivi
 	float massize[SIZE] = { 0 };
@@ -57,18 +57,38 @@ int main() {
 
 
 	//mojno cherez while
-	/*
+	
 	i = 0;
 	while (i < size) {
 		mass[i] = 5;
 
 		i++;
 	}
-	*/
+	
 
 
 	//v konce programmi luchshe chistit' massivi
 	free(mass);
+	free(mass_f);
+	return 0;
+}
+*/
+
+
+int main() {
+	//3.5
+	int size, i;
+	scanf_s("%d", &size);
+	float* mass_f = (float*)malloc(size * sizeof(float));
+	
+
+	for (i = 0; i < size; i++) {
+		mass_f[i] = -5 + rand() % (10 + 1);//chislo ot -5 do 5
+	}
+	for (i = 0; i < size; i++) {
+		printf("%d", mass_f);
+	}
+	
 	free(mass_f);
 	return 0;
 }

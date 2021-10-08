@@ -1,3 +1,2 @@
-﻿  Source.cpp
-D:\c++\Informatics-and-Programming\witcher\witcher\Source.cpp(5,10): warning C4477: "scanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "int"
-D:\c++\Informatics-and-Programming\witcher\witcher\Source.cpp(5): error C4700: использована неинициализированная локальная переменная "vsedengi"
+﻿  Source1.cpp
+  witcher.vcxproj -> D:\c++\Informatics-and-Programming\witcher\Debug\witcher.exe

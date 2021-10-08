@@ -1,4 +1,0 @@
-﻿  Source.cpp
-D:\c++\Informatics-and-Programming\work in class 8.10.21\work in class 8.10.21\Source.cpp(86,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-D:\c++\Informatics-and-Programming\work in class 8.10.21\work in class 8.10.21\Source.cpp(89,10): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "float *"
-  work in class 8.10.21.vcxproj -> D:\c++\Informatics-and-Programming\work in class 8.10.21\Debug\work in class 8.10.21.exe

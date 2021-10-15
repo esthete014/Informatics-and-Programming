@@ -2,7 +2,7 @@
 
 //podkluchenie bibliotek
 #include <stdio.h>//vvod
-#define SIZE 10//razmer massiva
+#define SIZE 9//razmer massiva
 
 
 int main() {
@@ -23,10 +23,31 @@ int main() {
 	}
 
 	//imenenie massiva
-	for (int i = 0; i < SIZE / 2; i++) {
-		vremennay = mass[i];
-		mass[i] = mass[i + SIZE / 2];
-		mass[i + SIZE / 2] = vremennay;
+	if (SIZE % 2 == 0) {
+		for (int i = 0; i < SIZE / 2; i++) {
+			vremennay = mass[i];
+			mass[i] = mass[i + SIZE / 2];
+			mass[i + SIZE / 2] = vremennay;
+		}
+	}
+
+	if (SIZE % 2 != 0) {
+		for (int i = 0; i <= SIZE / 2;) {
+			vremennay = mass[i];
+			mass[i] = mass[i + (SIZE / 2 + 1)];
+			mass[i + (SIZE / 2 + 1)] = vremennay;
+			i++;
+		}
+		printf("\nmassive posle izmeneniya: ");
+		for (int i = 0; i < SIZE; i++) {
+			printf("%d ", mass[i]);
+		}
+		int  konechnaya = mass[SIZE / 2 + 1];
+		for (int i = SIZE / 2 + 1; i < SIZE;) {
+			mass[i] = mass[i + 1];
+			i++;
+		}
+		mass[SIZE - 1] = konechnaya;
 	}
 
 	//vivod izmenennogo massiva

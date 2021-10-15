@@ -1,6 +1,0 @@
-﻿  Source.c
-D:\c++\Informatics-and-Programming\15.10.21 ttc\15.10.21 ttc\Source.c(39,7): warning C4013: sort: нет определения; предполагается "extern" с возвратом типа "int"
-D:\c++\Informatics-and-Programming\15.10.21 ttc\15.10.21 ttc\Source.c(10,8): warning C4101: max: неиспользованная локальная переменная
-D:\c++\Informatics-and-Programming\15.10.21 ttc\15.10.21 ttc\Source.c(24): error C4700: использована неинициализированная локальная переменная "balli"
-D:\c++\Informatics-and-Programming\15.10.21 ttc\15.10.21 ttc\Source.c(36): error C4700: использована неинициализированная локальная переменная "massnomerov"
-D:\c++\Informatics-and-Programming\15.10.21 ttc\15.10.21 ttc\Source.c(37): error C4700: использована неинициализированная локальная переменная "prohodballi"

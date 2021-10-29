@@ -1,0 +1,10 @@
+﻿  main.c
+C:\Users\вфаячямтип\Desktop\с++\main.c(24,1): warning C4005: max: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1282): message : см. предыдущее определение "max"
+C:\Users\вфаячямтип\Desktop\с++\main.c(25,1): warning C4005: min: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1283): message : см. предыдущее определение "min"
+C:\Users\вфаячямтип\Desktop\с++\main.c(36,1): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\вфаячямтип\Desktop\с++\main.c(132,39): warning C4020: fillArrayRandValues: слишком много фактических параметров
+C:\Users\вфаячямтип\Desktop\с++\main.c(189,39): warning C4020: fillArrayRandValues: слишком много фактических параметров
+C:\Users\вфаячямтип\Desktop\с++\main.c(198,57): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  dobavleniefunkciy.vcxproj -> D:\c++\Informatics-and-Programming\ttc check this\dobavleniefunkciy\Debug\dobavleniefunkciy.exe

@@ -1,4 +1,3 @@
 ﻿  Source.cpp
-D:\c++\Informatics-and-Programming\task3 hw\task3 hw\Source.cpp(26,15): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\c++\Informatics-and-Programming\task3 hw\task3 hw\Source.cpp(27,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  task3 hw.vcxproj -> D:\c++\Informatics-and-Programming\task3 hw\Debug\task3 hw.exe
+D:\c++\Informatics-and-Programming\homework check this\task3 hw\task3 hw\Source.cpp(45,15): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\c++\Informatics-and-Programming\homework check this\task3 hw\task3 hw\Source.cpp(46,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных

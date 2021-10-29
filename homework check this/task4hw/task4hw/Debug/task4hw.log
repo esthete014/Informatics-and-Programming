@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\c++\Informatics-and-Programming\homework check this\task4hw\task4hw\Source.cpp(75,11): warning C4778: "printf": незавершенная строка форматирования "%b"
+D:\c++\Informatics-and-Programming\homework check this\task4hw\task4hw\Source.cpp(75,17): warning C4474: "printf" : для строки формата передано слишком много аргументов
+D:\c++\Informatics-and-Programming\homework check this\task4hw\task4hw\Source.cpp(75,17): message : заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+  task4hw.vcxproj -> D:\c++\Informatics-and-Programming\homework check this\task4hw\Debug\task4hw.exe

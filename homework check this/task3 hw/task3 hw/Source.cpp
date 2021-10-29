@@ -12,6 +12,25 @@
 using namespace std;
 //tak mnogo bibliotek, potomu chno i pitalsya random normal'niy sdelat'
 
+//funkciya dlya vvedeniya chisla v vector
+//masschislo.push_back(int(int((chislo / pow(10, i))) % int(pow(10, i + 1))));//videlenie cifri iz chisla i zapis' v vector
+
+/*
+int zapisvectora(int chislodlyazapisi, int mass, int len) {
+	int pervoeotsechenie = 0, vtoroeotsechenie = 0;
+	std::vector<int> masschislo;
+	std::vector<int> massotvet;
+	
+	for (int index = len; index > 0; index -= 1) {
+		pervoeotsechenie = chislodlyazapisi / int(pow(10, index));
+		vtoroeotsechenie = pervoeotsechenie % int(pow(10, index + 1));
+		mass.push_back(vtoroeotsechenie);
+	}
+	return massotvet;
+}
+*/
+
+
 int main() {
 	//dlya menu
 	while (1) {
@@ -27,20 +46,35 @@ int main() {
 		srand(time(0));
 		chislo = rand() % predel + (predel / 10);;//srand(time(0))
 		//unsigned int vector_size = masschislo.size();
-		for (int i = 0; i < len; i++) {
-			masschislo[i] = int(int((chislo / pow(10, i))) % int(pow(10, i + 1)));//videlenie cifri iz chisla i zapis' v vector
+		for (int index = len; index > 0; index -= 1) {
+			int pervoeotsechenie = 0, vtoroeotsechenie = 0;
+			int chislodlyazapisi;
+			chislodlyazapisi = chislo;
+			pervoeotsechenie = chislodlyazapisi / int(pow(10, index));
+			vtoroeotsechenie = pervoeotsechenie % int(pow(10, index + 1));
+			masschislo.push_back(vtoroeotsechenie);
 		}
 		while (otvet != chislo) {
 			printf("\nvvedi dogadku:\n");
 			scanf_s("%d", &otvet);
-			if (len != massotvet.size()) {
+			int size = 0, zaposnoyotvet = otvet;
+			while (zaposnoyotvet > 0) {
+				zaposnoyotvet /= 10;
+				size += 1;
+			}
+			if (len != size) {
 				printf("nepravil'naya dlinna otveta(((");
 				continue;
 			}
 			int biki = 0, korovi = 0;
-			if (len = massotvet.size()) {
-				for (int i = 0; i < len; i++) {
-					massotvet[i] = int((otvet / pow(10, i))) % int(pow(10, i + 1));//videlenie cifri iz chisla i zapis' v vector
+			if (len == size) {
+				for (int index = len; index > 0; index -= 1) {
+					int pervoeotsechenie = 0, vtoroeotsechenie = 0;
+					int chislodlyazapisi;
+					chislodlyazapisi = otvet;
+					pervoeotsechenie = chislodlyazapisi / int(pow(10, index));
+					vtoroeotsechenie = pervoeotsechenie % int(pow(10, index + 1));
+					massotvet.push_back(vtoroeotsechenie);
 				}
 				//proverka sovpadeniy
 				//std::vector<int> povtori;
@@ -48,7 +82,7 @@ int main() {
 				for (int i = 0; i < len; i++) {
 					for (int j = 0; j < len; j++) {
 						if (masschislo[i] == massotvet[j]) {
-							if (i = j) {
+							if (i == j) {
 								biki += 1;
 							}
 							if (i != j) {
@@ -70,7 +104,7 @@ int main() {
 		//vihod
 		printf("\nchtobi viyti, najmi 1\n");
 		scanf_s("%d", &vihod);
-		if (vihod = 1) {
+		if (vihod == 1) {
 			break;
 		}
 	}
